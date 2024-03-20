@@ -1,26 +1,33 @@
+import config from "~/config";
+
 import Home from "~/pages/Home";
 import Following from "~/pages/Following";
 import Profile from "~/pages/Profile";
 import Upload from "~/pages/Upload";
+import Search from "~/pages/Search";
 
 //public route
 const publicRoutes = [
     {
-        path: '/',
+        path: config.routesConfig.home,
         component: Home
     },
     {
-        path: '/following',
+        path: config.routesConfig.following,
         component: Following
     },
     {
-        path: '/profile',
+        path: config.routesConfig.profile,
         component: Profile
     },
     {
-        path: '/upload',
+        path: config.routesConfig.upload,
         component: Upload,
         layout: null
+    },
+    {
+        path: config.routesConfig.search,
+        component: Search,
     }
 ];
 

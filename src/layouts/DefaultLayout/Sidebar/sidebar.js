@@ -1,6 +1,10 @@
+import styles from './sidebar.module.scss'
+
 function Sidebar() {
-    return (  
-        <h2>Sidebar</h2>
+    return (
+        <aside className={styles['wrapper']}>
+            <h2>Sidebar</h2>
+        </aside>
     );
 }
 
