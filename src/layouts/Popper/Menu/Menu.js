@@ -43,7 +43,7 @@ function Menu({ children, items = [] }, hideOnClick = false) {
             onHide={() => {
                 setHistory(prev => prev.slice(0,1))
             
-            }} //quay ve trang ban dau khi khong focus vao nua
+            }} //gia du dang o menu con -> quay ve menu ban dau khi khong focus vao nua
         >
             {children}
         </Tippy>
