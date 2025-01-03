@@ -1,1 +1,1 @@
-# This is my first project made with React during my self-study process.
+# This is a simple front-end project made with React during my self-study process.
